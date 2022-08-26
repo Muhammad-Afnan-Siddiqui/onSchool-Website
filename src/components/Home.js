@@ -24,14 +24,22 @@ const Home = () => {
                 <Form className='text-start'>
                   <Form.Label>Sign Up</Form.Label>
                   <Form.Group className='mb-3 w-100' controlId='formBasicEmail'>
-                    <Form.Control type='email' placeholder='Enter email' />
+                    <Form.Control
+                      type='email'
+                      placeholder='Enter email'
+                      className='input-Focus'
+                    />
                   </Form.Group>
 
                   <Form.Group
                     className='mb-3  w-100'
                     controlId='formBasicPassword'
                   >
-                    <Form.Control type='password' placeholder='Password' />
+                    <Form.Control
+                      type='password'
+                      placeholder='Password'
+                      className='input-Focus'
+                    />
                   </Form.Group>
                   <Form.Group
                     className='mb-3  w-1000'
@@ -40,6 +48,7 @@ const Home = () => {
                     <Form.Control
                       type='password'
                       placeholder='Re-Enter Password'
+                      className='input-Focus'
                     />
                   </Form.Group>
 

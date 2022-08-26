@@ -6,7 +6,7 @@ import Card2 from '../assets/hero-1.jpg';
 import Card3 from '../assets/ximg_4.jpg.pagespeed.ic.MzhOoMOq8Q.jpeg';
 const Courses = () => {
   return (
-    <div className='onSchool-Courses text-dark'>
+    <div className='onSchool-Courses text-dark h-100'>
       <div className='Courses-bg'>
         <Container>
           <Row>
@@ -16,9 +16,9 @@ const Courses = () => {
               </div>
             </Col>
           </Row>
-          <Row className='my-5 g-5'>
-            <Col md={4}>
-              <div className='Courses-Cards my-3 text-start'>
+          <Row className='my-5 g-5 '>
+            <Col sm={12} md={12} lg={4}>
+              <div className='Courses-Cards my-3 text-start d-flex justify-content-center align-items-center'>
                 <Card style={{ width: '350px' }} className='rounded-0 border-0'>
                   <Card.Img
                     variant='top'
@@ -48,8 +48,8 @@ const Courses = () => {
                 </Card>
               </div>
             </Col>
-            <Col md={4}>
-              <div className='Courses-Cards my-3 text-start'>
+            <Col sm={12} md={12} lg={4}>
+              <div className='Courses-Cards my-3 text-start d-flex justify-content-center align-items-center'>
                 <Card style={{ width: '350px' }} className='rounded-0 border-0'>
                   <Card.Img
                     variant='top'
@@ -80,8 +80,8 @@ const Courses = () => {
                 </Card>
               </div>
             </Col>
-            <Col md={4}>
-              <div className='Courses-Cards my-3 text-start'>
+            <Col sm={12} md={12} lg={4}>
+              <div className='Courses-Cards my-3 text-start d-flex justify-content-center align-items-center'>
                 <Card
                   style={{ width: '350px' }}
                   className='rounded-0 border-0  '

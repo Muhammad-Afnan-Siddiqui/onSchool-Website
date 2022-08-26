@@ -36,6 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.onSchool-Header .Nav-height {
+  height: 100px;
+}
 .onSchool-Header .Contact-btn {
   border-radius: 25px;
   background-color: #7672e6;
@@ -43,6 +46,9 @@
   color: white;
   width: 120px;
   height: 40px;
+}
+.OnSchool-Home {
+  margin-top: -100px;
 }
 .OnSchool-Home > .Home-bg {
   /* background-image: url('./assets/hero-1.jpg'); */
@@ -75,6 +81,11 @@
   padding: 50px 30px;
   height: 50%;
 }
+.OnSchool-Home .Home-SignUp-Form .input-Focus:focus {
+  border-color: #7672e6;
+  box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
+}
+
 .OnSchool-Home .Home-SignUp-Form .btn {
   color: white;
   background-color: #7672e6;
@@ -102,6 +113,16 @@
   max-width: 50%;
   margin: 0 auto;
 }
+.onSchool-Programs .icon-roundend {
+  border: none;
+  border-radius: 30px;
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
 .onSchool-Teachers .img-hack {
   border-radius: 50%;
   left: 50%;
@@ -128,4 +149,52 @@
 .onSchool-Teachers .max-width {
   max-width: 50%;
   margin: 0 auto;
+}
+
+.onSchool-Message {
+  background-color: #f8f9fa;
+}
+.onSchool-Message .Message-Form .input-Focus:focus {
+  border-color: #7672e6;
+  box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
+}
+.onSchool-Message .Message-Form .btn {
+  color: white;
+  background-color: #7672e6;
+  border-style: none;
+  border-radius: 25px;
+  height: 50px;
+  width: 250px;
+}
+
+.onSchool-WhyUs .benjamin-side-img {
+  bottom: 0;
+  width: 700px;
+}
+.onSchool-WhyUs .icon-roundend {
+  border: none;
+  border-radius: 30px;
+  display: inline-flex;
+  height: 50px;
+  width: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.onSchool-Footer .color-BgPurple {
+  background-color: #7672e6;
+}
+.onSchool-Footer .max-width {
+  max-width: 50%;
+  margin: 0 auto;
+}
+.onSchool-Footer
+  .Footer-Rigt-Content
+  .Footer-Subscribe-Input
+  .input-Focus:focus {
+  border-color: #7672e6;
+  box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
+}
+
+.onSchool-Footer .Footer-Bottom .cr-border {
+  border-top: 1px solid rgb(235, 230, 230);
 }

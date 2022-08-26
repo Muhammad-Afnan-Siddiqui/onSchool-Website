@@ -6,9 +6,9 @@ import { FaUniversity, FaGraduationCap } from 'react-icons/fa';
 
 const Programs = () => {
   return (
-    <div className='onSchool-Programs'>
+    <div className='onSchool-Programs '>
       <div className='Programs'>
-        <section>
+        <section className='Top-Section'>
           <Container className='h-100 w-50'>
             <Row className='d-flex justify-content-center'>
               <Col md={12}>
@@ -28,15 +28,20 @@ const Programs = () => {
             </Row>
           </Container>
         </section>
-        <section>
+        <section className='Middle-Section'>
           <Container>
             <Row className='my-5'>
-              <Col md={6}>
+              <Col sm={12} md={12} lg={6}>
                 <div>
                   <img src={Img1} width={'100%'} />
                 </div>
               </Col>
-              <Col md={6} className='my-5 p-5 text-start text-secondary'>
+              <Col
+                sm={12}
+                md={12}
+                lg={6}
+                className='my-5 p-5 text-start text-secondary d-flex justify-content-center'
+              >
                 <div className='w-75'>
                   <h3 className='color-Purple mb-3'>
                     We Are Excellent in Education
@@ -47,13 +52,13 @@ const Programs = () => {
                     its layout.
                   </p>
                   <p>
-                    <span className='d-inline justify-content-center align-items-center mx-4 rounded-circle color-BgPurple '>
+                    <span className='icon-roundend  color-BgPurple mx-4 '>
                       <FaGraduationCap size={20} color='white' />
                     </span>
                     22,913 Yearly Gradute
                   </p>
                   <p>
-                    <span className='mx-4 rounded-circle color-BgPurple'>
+                    <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaUniversity size={20} color='white' />
                     </span>
                     150 Universities WorldWide
@@ -62,7 +67,12 @@ const Programs = () => {
               </Col>
             </Row>
             <Row className='my-5'>
-              <Col md={6} className='my-5 p-5 text-start text-secondary'>
+              <Col
+                sm={12}
+                md={12}
+                lg={6}
+                className='my-5 p-5 text-start text-secondary d-flex justify-content-center'
+              >
                 <div className='w-75'>
                   <h3 className='color-Purple mb-3'>
                     We Are Excellent in Education
@@ -73,32 +83,37 @@ const Programs = () => {
                     its layout.
                   </p>
                   <p>
-                    <span className='d-inline justify-content-center align-items-center mx-4 rounded-circle color-BgPurple '>
+                    <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaGraduationCap size={20} color='white' />
                     </span>
                     22,913 Yearly Gradute
                   </p>
                   <p>
-                    <span className='mx-4 rounded-circle color-BgPurple'>
+                    <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaUniversity size={20} color='white' />
                     </span>
                     150 Universities WorldWide
                   </p>
                 </div>
               </Col>
-              <Col md={6}>
+              <Col sm={12} md={12} lg={6}>
                 <div>
                   <img src={Img2} width={'100%'} />
                 </div>
               </Col>
             </Row>
             <Row className='my-5'>
-              <Col md={6}>
+              <Col sm={12} md={12} lg={6}>
                 <div>
-                  <img src={Img1} width={'100%'} />
+                  <img src={Img2} width={'100%'} />
                 </div>
               </Col>
-              <Col md={6} className='my-5 p-5 text-start text-secondary'>
+              <Col
+                sm={12}
+                md={12}
+                lg={6}
+                className='my-5 p-5 text-start text-secondary d-flex justify-content-center'
+              >
                 <div className='w-75'>
                   <h3 className='color-Purple mb-3'>
                     We Are Excellent in Education
@@ -109,13 +124,13 @@ const Programs = () => {
                     its layout.
                   </p>
                   <p>
-                    <span className='d-inline justify-content-center align-items-center mx-4 rounded-circle color-BgPurple '>
+                    <span className='icon-roundend  color-BgPurple mx-4 '>
                       <FaGraduationCap size={20} color='white' />
                     </span>
                     22,913 Yearly Gradute
                   </p>
                   <p>
-                    <span className='mx-4 rounded-circle color-BgPurple'>
+                    <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaUniversity size={20} color='white' />
                     </span>
                     150 Universities WorldWide

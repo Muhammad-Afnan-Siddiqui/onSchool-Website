@@ -7,13 +7,13 @@ import Img4 from '../assets/xperson_4.jpg.pagespeed.ic.khM9f77Fmk.jpeg';
 const Teachers = () => {
   return (
     <div className='onSchool-Teachers'>
-      <section>
+      <section classNam='Top-Section'>
         <Container className='w-50 my-5'>
           <Row className='d-flex justify-content-center '>
             <Col md={12}>
               <div className='Teachers-Top-Content my-5'>
                 <h1 className='my-5'>
-                  <b>Our Programs</b>
+                  <b>Our Teachers</b>
                 </h1>
                 <p className='text-secondary '>
                   Lorem Ipsum is simply dummy text of the printing and
@@ -25,7 +25,7 @@ const Teachers = () => {
           </Row>
         </Container>
       </section>
-      <section>
+      <section className='Middle-Section my-5'>
         <Container>
           <Row>
             <Col md={4}>
@@ -88,7 +88,7 @@ const Teachers = () => {
           </Row>
         </Container>
       </section>
-      <section>
+      <section className='Bottom-Section'>
         <div className='Teachers-bg-img py-5 '>
           <Container>
             <div className='Techer-bottom-section-description my-3 text-white max-width'>
