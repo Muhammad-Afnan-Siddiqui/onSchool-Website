@@ -8,10 +8,10 @@ const Teachers = () => {
   return (
     <div className='onSchool-Teachers'>
       <section classNam='Top-Section'>
-        <Container className='w-50 my-5'>
+        <Container className=' my-5'>
           <Row className='d-flex justify-content-center '>
             <Col md={12}>
-              <div className='Teachers-Top-Content my-5'>
+              <div className='Teachers-Top-Content my-5 max-width'>
                 <h1 className='my-5'>
                   <b>Our Teachers</b>
                 </h1>
@@ -28,7 +28,7 @@ const Teachers = () => {
       <section className='Middle-Section my-5'>
         <Container>
           <Row>
-            <Col md={4}>
+            <Col sm={12} md={12} lg={4} className=''>
               <Card className='d-flex justify-content-center rounded-0  my-5 position-relative'>
                 <Card.Img
                   variant='top'
@@ -47,7 +47,7 @@ const Teachers = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4}>
+            <Col sm={12} md={12} lg={4}>
               <Card className='d-flex justify-content-center rounded-0 my-5 position-relative '>
                 <Card.Img
                   variant='top'
@@ -66,7 +66,7 @@ const Teachers = () => {
                 </Card.Body>
               </Card>
             </Col>
-            <Col md={4}>
+            <Col sm={12} md={12} lg={4}>
               <Card className='d-flex justify-content-center rounded-0 my-5 position-relative'>
                 <Card.Img
                   variant='top'

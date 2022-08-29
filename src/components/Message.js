@@ -22,7 +22,7 @@ const Message = () => {
                   <Col md={6} class='form-group '>
                     <input
                       type='text'
-                      class='form-control p-2 input-Focus'
+                      class='form-control first-Name p-2 input-Focus'
                       id='firstName'
                       placeholder='First Name'
                     />

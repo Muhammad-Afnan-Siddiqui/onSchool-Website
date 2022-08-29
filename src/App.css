@@ -39,6 +39,14 @@
 .onSchool-Header .Nav-height {
   height: 100px;
 }
+.onSchool-Header .Navbar-offCanvas-btn {
+  background-color: white;
+  border-radius: 5px;
+  border-style: none;
+}
+.onSchool-Header .Navbar-offCanvas-btn:hover {
+  border: 5px solid white;
+}
 .onSchool-Header .Contact-btn {
   border-radius: 25px;
   background-color: #7672e6;
@@ -46,6 +54,11 @@
   color: white;
   width: 120px;
   height: 40px;
+}
+.onSchool-Header .Contact-btn:hover {
+  background-color: white;
+  color: #7672e6;
+  border: 2px solid #7672e6;
 }
 .OnSchool-Home {
   margin-top: -100px;
@@ -74,6 +87,11 @@
   height: 50px;
   width: 200px;
 }
+.OnSchool-Home .Home-admission:hover {
+  background-color: white;
+  color: #7672e6;
+  border: 2px solid #7672e6;
+}
 .OnSchool-Home .Home-SignUp-Form {
   background-color: white;
   border-radius: 5px;
@@ -94,6 +112,11 @@
   height: 50px;
   width: 100px;
 }
+.OnSchool-Home .Home-SignUp-Form .btn:hover {
+  background-color: white;
+  color: #7672e6;
+  border: 2px solid #7672e6;
+}
 .onSchool-Courses {
   height: 100vh;
 }
@@ -105,9 +128,15 @@
   height: 50px;
   width: 100px;
 }
+.onSchool-Courses .btn:hover {
+  border: 2px solid #7672e6;
+  color: #7672e6;
+}
+
 .onSchool-Courses .Courses-bg {
   background-color: #7672e6;
-  height: 40%;
+  height: 400px;
+  z-index: -1;
 }
 .onSchool-Programs .max-width {
   max-width: 50%;
@@ -166,6 +195,11 @@
   height: 50px;
   width: 250px;
 }
+.onSchool-Message .Message-Form .btn:hover {
+  background-color: white;
+  border: 2px solid #7672e6;
+  color: #7672e6;
+}
 
 .onSchool-WhyUs .benjamin-side-img {
   bottom: 0;
@@ -187,14 +221,120 @@
   max-width: 50%;
   margin: 0 auto;
 }
+.onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input > input {
+  border: 2px solid #7672e6;
+}
 .onSchool-Footer
   .Footer-Rigt-Content
   .Footer-Subscribe-Input
-  .input-Focus:focus {
-  border-color: #7672e6;
+  .input-Focus:focus-visible {
+  outline: none;
+  border: 5px solid #7672e6;
   box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
 }
 
 .onSchool-Footer .Footer-Bottom .cr-border {
   border-top: 1px solid rgb(235, 230, 230);
+}
+/* }
+@media screen and (max-width: 1024px) {
+  .onSchool-Header .Navbar-offCanvas-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .onSchool-Header .Nav-toggle-hidden {
+    display: none;
+  }
+  .onSchool-Header .Contact-btn {
+    display: none;
+  }
+  .OnSchool-Home .Home-Content {
+    display: none;
+  }
+  .onSchool-WhyUs .Card {
+    display: flex;
+    justify-content: center;
+  }
+  .onSchool-WhyUs .benjamin-side-img {
+    display: none;
+  }
+}
+*/
+@media screen and (min-width: 800px) {
+  .onSchool-Header .Navbar-offCanvas-btn {
+    display: none;
+  }
+}
+@media screen and (max-width: 767px) {
+  .onSchool-Header .Navbar-offCanvas-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .onSchool-Header .Nav-toggle-hidden {
+    display: none;
+  }
+  .onSchool-Header .Contact-btn {
+    display: none;
+  }
+  .OnSchool-Home .Home-Content {
+    display: none;
+  }
+  .OnSchool-Home .Home-SignUp-Form {
+    width: 80%;
+  }
+  .onSchool-Courses .Courses-bg {
+    height: 100%;
+  }
+  .onSchool-Courses .btn {
+    color: #7672e6;
+    background-color: white;
+  }
+  .onSchool-Courses .btn {
+    color: #7672e6;
+    background-color: white;
+  }
+  .onSchool-Courses .btn:hover {
+    border: 2px solid white;
+    color: white;
+  }
+  .onSchool-Courses .Cards .Courses-Cards .media-width {
+    width: 300px !important;
+  }
+  .onSchool-Programs .Programs-Top-Content {
+    max-width: 100%;
+  }
+  .onSchool-Programs .Middle-Section .media-remove-margin {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+  .onSchool-WhyUs .Card {
+    display: flex;
+    justify-content: center;
+  }
+  .onSchool-Teachers .max-width {
+    max-width: 100%;
+  }
+  .onSchool-WhyUs-Content {
+    display: contents;
+  }
+  .onSchool-WhyUs .benjamin-side-img {
+    display: none;
+  }
+  .onSchool-Message .Main .onSchool-Message-Form .Message-heading {
+    padding-bottom: 15px;
+  }
+  .onSchool-Message .Main .onSchool-Message-Form .Message-para {
+    display: none;
+  }
+  .first-Name {
+    margin-bottom: 1.5rem;
+  }
+  .onSchool-Footer .Footer-Center-Content {
+    display: none;
+  }
+  .onSchool-Footer .Footer-Bottom .max-width {
+    max-width: 100%;
+  }
 }

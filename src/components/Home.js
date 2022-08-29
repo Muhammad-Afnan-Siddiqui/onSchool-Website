@@ -7,8 +7,8 @@ const Home = () => {
     <div className='OnSchool-Home'>
       <div className='Home-bg'>
         <Container className='h-100'>
-          <Row className='d-flex align-items-center h-100 '>
-            <Col md={6}>
+          <Row className='d-flex  align-items-center justify-content-center h-100 '>
+            <Col sm={12} md={12} lg={6}>
               <div className='Home-Content text-white text-start'>
                 <h1>Learn From the Experts</h1>
                 <br />
@@ -19,7 +19,12 @@ const Home = () => {
                 <button className='Home-admission'>Addmision</button>
               </div>
             </Col>
-            <Col md={6} className='d-flex justify-content-center'>
+            <Col
+              sm={12}
+              md={12}
+              lg={6}
+              className='d-flex justify-content-center'
+            >
               <div className='Home-SignUp-Form'>
                 <Form className='text-start'>
                   <Form.Label>Sign Up</Form.Label>

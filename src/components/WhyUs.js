@@ -8,14 +8,14 @@ const WhyUs = () => {
     <div className='onSchool-WhyUs vh-100 position-relative'>
       <section className='Main '>
         <Container>
-          <div className='onSchool-WhyUs-Content py-5 '>
+          <div className='onSchool-WhyUs-Content py-0 py-md-5'>
             <div className='Heading my-5'>
               <h1>
                 <b>Why Choose US</b>
               </h1>
             </div>
 
-            <div className='Card text-start text-dark'>
+            <div className='Card text-start text-dark '>
               <Card
                 className='shadow-lg  bg-white border-0 p-4'
                 style={{ width: '450px' }}

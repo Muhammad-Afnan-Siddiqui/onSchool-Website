@@ -5,9 +5,9 @@ const Footer = () => {
   return (
     <div className='onSchool-Footer h-50'>
       <section className='Footer-Top'>
-        <Container className='my-5 py-5 text-start'>
+        <Container className='my-0 py-0  my-md-5 py-md-5 text-start'>
           <Row>
-            <Col md={4}>
+            <Col sm={4}>
               <div className='Footer-Left-Content'>
                 <div className='Footer-Heading my-3'>
                   <h6>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col md={4}>
+            <Col sm={4}>
               <div className='Footer-Center-Content  max-width'>
                 <div className='Footer-Heading my-3'>
                   <h6>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col md={4}>
+            <Col sm={4}>
               <div className='Footer-Rigt-Content'>
                 <div className='Footer-Heading my-3'>
                   <h6>
@@ -78,9 +78,9 @@ const Footer = () => {
           </Row>
         </Container>
       </section>
-      <section className='Footer-Bottom'>
+      <section className='Footer-Bottom my-3'>
         <Container>
-          <div className='d-flex justify-content-center pt-5 cr-border max-width'>
+          <div className='d-flex justify-content-center pt-3 pt-md-5 cr-border max-width'>
             <p className='text-secondary'>
               Copyright
               <span>&copy;</span>2022 All Rights Reserved | This Templete is

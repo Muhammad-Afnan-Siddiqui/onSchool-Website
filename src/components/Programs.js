@@ -30,9 +30,9 @@ const Programs = () => {
         </section>
         <section className='Middle-Section'>
           <Container>
-            <Row className='my-5'>
+            <Row className='my-5 media-remove-margin'>
               <Col sm={12} md={12} lg={6}>
-                <div>
+                <div className='d-flex align-items-center'>
                   <img src={Img1} width={'100%'} />
                 </div>
               </Col>
@@ -40,7 +40,7 @@ const Programs = () => {
                 sm={12}
                 md={12}
                 lg={6}
-                className='my-5 p-5 text-start text-secondary d-flex justify-content-center'
+                className='my-4 p-0 my-md-5 p-md-5 text-start text-secondary d-flex justify-content-center'
               >
                 <div className='w-75'>
                   <h3 className='color-Purple mb-3'>
@@ -61,17 +61,17 @@ const Programs = () => {
                     <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaUniversity size={20} color='white' />
                     </span>
-                    150 Universities WorldWide
+                    150 Universities World Wide
                   </p>
                 </div>
               </Col>
             </Row>
-            <Row className='my-5'>
+            <Row className='my-5 media-remove-margin'>
               <Col
                 sm={12}
                 md={12}
                 lg={6}
-                className='my-5 p-5 text-start text-secondary d-flex justify-content-center'
+                className='my-4 p-0 my-md-5 p-md-5 text-start text-secondary d-flex justify-content-center'
               >
                 <div className='w-75'>
                   <h3 className='color-Purple mb-3'>
@@ -92,19 +92,19 @@ const Programs = () => {
                     <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaUniversity size={20} color='white' />
                     </span>
-                    150 Universities WorldWide
+                    150 Universities World Wide
                   </p>
                 </div>
               </Col>
               <Col sm={12} md={12} lg={6}>
-                <div>
+                <div className='d-flex align-items-center'>
                   <img src={Img2} width={'100%'} />
                 </div>
               </Col>
             </Row>
-            <Row className='my-5'>
+            <Row className='my-5 media-remove-margin'>
               <Col sm={12} md={12} lg={6}>
-                <div>
+                <div className='d-flex align-items-center'>
                   <img src={Img2} width={'100%'} />
                 </div>
               </Col>
@@ -112,7 +112,7 @@ const Programs = () => {
                 sm={12}
                 md={12}
                 lg={6}
-                className='my-5 p-5 text-start text-secondary d-flex justify-content-center'
+                className='my-4 p-0 my-md-5 p-md-5 text-start text-secondary d-flex justify-content-center'
               >
                 <div className='w-75'>
                   <h3 className='color-Purple mb-3'>
@@ -133,7 +133,7 @@ const Programs = () => {
                     <span className='mx-4 icon-roundend  color-BgPurple'>
                       <FaUniversity size={20} color='white' />
                     </span>
-                    150 Universities WorldWide
+                    150 Universities World Wide
                   </p>
                 </div>
               </Col>
