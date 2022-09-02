@@ -45,7 +45,9 @@ const Header = () => {
                 </Nav.Link>
               </Nav.Item>
             </Nav>
-            <button className='Contact-btn'>Contact Us</button>
+            <div className=''>
+              <button className='Contact-btn'>Contact Us</button>
+            </div>
             <button onClick={handleShow} className='me-2 Navbar-offCanvas-btn '>
               <CgMenu size={25} />
             </button>

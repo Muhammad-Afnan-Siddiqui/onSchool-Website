@@ -3,8 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { FaHeart } from 'react-icons/fa';
 const Footer = () => {
   return (
-    <div className='onSchool-Footer h-50'>
-      <section className='Footer-Top'>
+    <section className='onSchool-Footer h-50'>
+      <div className='Footer-Top'>
         <Container className='my-0 py-0  my-md-5 py-md-5 text-start'>
           <Row>
             <Col sm={4}>
@@ -62,38 +62,39 @@ const Footer = () => {
                     its layout.s
                   </p>
                 </div>
-                <div className='Footer-Subscribe-Input'>
+                <div className='Footer-Subscribe-Input '>
                   <input
                     name='email'
                     type='email'
                     placeholder='Email'
                     className='p-2 input-Focus'
                   ></input>
-                  <button className='text-white color-BgPurple p-1 border border-secondary w-25'>
-                    Subscribe
+                  <button className='text-white color-BgPurple p-1 border border-secondary w-75 w-md-25 h-100'>
+                    <b>Subscribe</b>
                   </button>
                 </div>
               </div>
             </Col>
           </Row>
         </Container>
-      </section>
-      <section className='Footer-Bottom my-3'>
-        <Container>
-          <div className='d-flex justify-content-center pt-3 pt-md-5 cr-border max-width'>
-            <p className='text-secondary'>
-              Copyright
-              <span>&copy;</span>2022 All Rights Reserved | This Templete is
-              Made by{' '}
-              <span>
-                <FaHeart />
-              </span>{' '}
-              by <span className='color-Purple '>Colorlib</span>
-            </p>
-          </div>
-        </Container>
-      </section>
-    </div>
+
+        <div className='Footer-Bottom my-3'>
+          <Container>
+            <div className='d-flex justify-content-center pt-3 pt-md-5 cr-border w-75 m-auto'>
+              <p className='text-secondary'>
+                Copyright
+                <span>&copy;</span>2022 All Rights Reserved | This Templete is
+                Made by{' '}
+                <span>
+                  <FaHeart />
+                </span>{' '}
+                by <span className='color-Purple '>Colorlib</span>
+              </p>
+            </div>
+          </Container>
+        </div>
+      </div>
+    </section>
   );
 };
 

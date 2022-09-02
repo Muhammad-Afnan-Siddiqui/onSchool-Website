@@ -6,36 +6,33 @@ import Img3 from '../assets/xperson_3.jpg.pagespeed.ic._DYBFPhH-a.jpeg';
 import Img4 from '../assets/xperson_4.jpg.pagespeed.ic.khM9f77Fmk.jpeg';
 const Teachers = () => {
   return (
-    <div className='onSchool-Teachers'>
-      <section classNam='Top-Section'>
-        <Container className=' my-5'>
-          <Row className='d-flex justify-content-center '>
-            <Col md={12}>
-              <div className='Teachers-Top-Content my-5 max-width'>
-                <h1 className='my-5'>
-                  <b>Our Teachers</b>
-                </h1>
-                <p className='text-secondary '>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy text ever since the 1500s.
-                </p>
-              </div>
-            </Col>
-          </Row>
+    <section className='onSchool-Teachers'>
+      <div classNam='Top-Section my-5'>
+        <Container>
+          <div className='Teachers-Top-Content py-5'>
+            <h1 className='py-5'>
+              <b>Our Teachers</b>
+            </h1>
+            <p className='text-secondary max-width'>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </p>
+          </div>
         </Container>
-      </section>
-      <section className='Middle-Section my-5'>
+      </div>
+      <div className='Middle-Section my-5'>
         <Container>
           <Row>
-            <Col sm={12} md={12} lg={4} className=''>
-              <Card className='d-flex justify-content-center rounded-0  my-5 position-relative'>
+            <Col sm={12} md={12} lg={4}>
+              <Card className='d-flex justify-content-center rounded-0 position-relative my-5'>
                 <Card.Img
                   variant='top'
                   src={Img1}
                   className='position-absolute img-hack '
                 />
-                <Card.Body className='mx-5 my-5 card-padding'>
+                <Card.Body className='m-5 card-padding'>
                   <Card.Title>Benjamin Stone</Card.Title>
                   <Card.Subtitle className='my-3 text-muted'>
                     Physical Teacher
@@ -48,13 +45,13 @@ const Teachers = () => {
               </Card>
             </Col>
             <Col sm={12} md={12} lg={4}>
-              <Card className='d-flex justify-content-center rounded-0 my-5 position-relative '>
+              <Card className='d-flex justify-content-center rounded-0 position-relative my-5'>
                 <Card.Img
                   variant='top'
                   src={Img2}
                   className='position-absolute img-hack'
                 />
-                <Card.Body className='mx-5 my-5 card-padding'>
+                <Card.Body className='m-5 card-padding'>
                   <Card.Title>Katleen Stone</Card.Title>
                   <Card.Subtitle className='my-3 text-muted'>
                     Physical Teacher
@@ -67,13 +64,13 @@ const Teachers = () => {
               </Card>
             </Col>
             <Col sm={12} md={12} lg={4}>
-              <Card className='d-flex justify-content-center rounded-0 my-5 position-relative'>
+              <Card className='d-flex justify-content-center rounded-0 position-relative my-5 '>
                 <Card.Img
                   variant='top'
                   src={Img3}
                   className='position-absolute img-hack'
                 />
-                <Card.Body className='mx-5 my-5 card-padding '>
+                <Card.Body className='m-5 card-padding'>
                   <Card.Title>Sadie White</Card.Title>
                   <Card.Subtitle className='my-3 text-muted'>
                     Physical Teacher
@@ -87,24 +84,22 @@ const Teachers = () => {
             </Col>
           </Row>
         </Container>
-      </section>
-      <section className='Bottom-Section'>
-        <div className='Teachers-bg-img py-5 '>
-          <Container>
-            <div className='Techer-bottom-section-description my-3 text-white max-width'>
-              <img src={Img4} height={'150px'} className='rounded-circle ' />
-              <h4 className='my-2'>Jrome Jensen</h4>
-              <p>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.{' '}
-              </p>
-            </div>
-          </Container>
-        </div>
-      </section>
-    </div>
+      </div>
+      <div className='Bottom-Section Teachers-bg-img py-5'>
+        <Container>
+          <div className='Techer-bottom-section-description py-5 text-white '>
+            <img src={Img4} height={'150px'} className='rounded-circle ' />
+            <h4 className='my-4'>Jrome Jensen</h4>
+            <p className='w-75 m-auto'>
+              "There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable."{' '}
+            </p>
+          </div>
+        </Container>
+      </div>
+    </section>
   );
 };
 
