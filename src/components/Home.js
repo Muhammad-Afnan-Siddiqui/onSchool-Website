@@ -19,7 +19,7 @@ const Home = () => {
           </Col>
           <Col md={6} sm={12}>
             <div className='Home-SignUp-Form '>
-              <Form className='text-start'>
+              <Form>
                 <h3>Sign Up</h3>
                 <Form.Group className='mb-3 w-100' controlId='formBasicEmail'>
                   <Form.Control

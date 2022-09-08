@@ -36,6 +36,25 @@
     transform: rotate(360deg);
   }
 }
+.Navbar-offCanvas {
+  background-color: #000000d6;
+  color: white;
+  text-align: center;
+}
+.Navbar-offCanvas .offcanvas-header .offcanvas-header .btn-close {
+  color: white;
+  background-color: white;
+}
+.Navbar-offCanvas .offcanvas-body {
+}
+.Navbar-offCanvas .offcanvas-body .Contact-btn {
+  border-radius: 25px;
+  background-color: #7672e6;
+  border-style: none;
+  color: white;
+  width: 120px;
+  height: 40px;
+}
 .onSchool-Header .Nav-height {
   height: 100px;
 }
@@ -45,6 +64,7 @@
   border-style: none;
   display: none;
 }
+
 .onSchool-Header .Navbar-offCanvas-btn:hover {
   border: 5px solid white;
 }
@@ -66,15 +86,17 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  min-height: 884px;
   margin-top: -100px;
 }
 .OnSchool-Home.Home-bg .Home-Content {
   color: white;
   display: flex;
   height: 100%;
+  text-align: initial;
   justify-content: center;
   flex-direction: column;
-  align-items: baseline;
+  align-items: flex-start;
 }
 .OnSchool-Home.Home-bg {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
@@ -107,12 +129,12 @@
   border-radius: 5px;
   width: 35vw;
   padding: 5vw;
+  text-align: start;
 }
 .OnSchool-Home .Home-SignUp-Form .input-Focus:focus {
   border-color: #7672e6;
   box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
 }
-
 .OnSchool-Home .Home-SignUp-Form .btn {
   color: white;
   background-color: #7672e6;
@@ -127,44 +149,84 @@
   border: 2px solid #7672e6;
 }
 .onSchool-Courses {
-  height: 100vh;
   position: relative;
+  min-height: 884px;
 }
 .onSchool-Courses .Heading {
-  height: 400px;
-  padding: 80px;
+  height: 350px;
+  padding-top: 50px;
   background-color: #7672e6;
   color: white;
+  font-size: xx-large;
+  font-weight: bolder;
 }
-.onSchool-Courses .Cards-Carousel {
-  top: 25%;
+.onSchool-Courses .Courses-slider {
+  position: absolute;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
+  width: 100%;
+}
+.onSchool-Courses .Courses-slider .swiper {
+  width: 60%;
+  height: 700px;
+}
+.onSchool-Courses .Courses-slider .swiper .swiper-slide .card {
+  border: none;
+}
+.onSchool-Courses .Courses-slider .swiper .swiper-slide .card .Card-Footer {
+  border-bottom: 3px groove rgb(255 255 255 / 35%);
+}
+
+.onSchool-Courses .Courses-slider .swiper .swiper-button-prev {
+  height: 50px;
+
+  border-radius: 5px;
+  color: #7672e6;
+  width: fit-content;
+  padding: 20px;
+  left: 35%;
+  top: 90%;
+}
+.onSchool-Courses .Courses-slider .swiper .swiper-button-next {
+  height: 50px;
+
+  border-radius: 5px;
+  color: #7672e6;
+  width: fit-content;
+  padding: 20px;
+  right: 35%;
+  top: 90%;
+}
+.onSchool-Courses .Courses-slider .swiper .courses-card-body {
+  text-align: start;
+}
+.onSchool-Courses .Courses-slider .swiper .image-size {
+  object-fit: cover;
+  height: 200px;
+}
+.onSchool-Courses
+  .Courses-slider
+  .swiper
+  .courses-card-body
+  .cousrses-card-discount {
+  background-color: #7672e6;
+  border-radius: 10px 0px 0px 10px;
+  padding: 20px;
+  color: white;
+  width: fit-content;
+  right: 0;
   position: absolute;
-  width: 50%;
+  top: -20%;
+  font-size: large;
 }
-.Cards-Carousel .carousel-inner {
-  margin-bottom: 20px;
+.onSchool-Courses .Courses-slider .swiper .swiper-button-next:after {
+  /* font-family: ;
+  font-size: xx-large; */
 }
-
-.Cards-Carousel .carousel-control-next,
-.Cards-Carousel .carousel-control-prev {
-  position: initial;
-  display: inline-block;
-  padding: 10px 15px;
-  background-color: #7273e2;
-  text-decoration: none;
-  opacity: 1;
-}
-
-.Cards-Carousel .carousel-control-prev {
-  margin-right: 25px;
-  margin-top: 50px;
-}
-
-.Cards-Carousel .card {
-  width: 400px;
-  margin: 0 auto;
+.onSchool-Courses .Courses-slider .swiper .swiper-button-prev:after {
+  /* font-family: initial;
+  font-size: xx-large; */
 }
 .Card-Footer {
   display: flex;
@@ -175,6 +237,35 @@
   max-width: 50%;
   margin: 0 auto;
 }
+.onSchool-Programs .Top-Section .Heading {
+  height: 100px;
+  padding: 25px;
+}
+.onSchool-Programs .Middle-Section .Programs-CardContent-Top-alignment {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.onSchool-Programs .Middle-Section .Programs-Card-Img {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 100%;
+}
+.onSchool-Programs
+  .Programs-CardContent-Bottom-Section
+  .Programs-CardContent-Bottom {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 .onSchool-Programs .icon-roundend {
   border: none;
   border-radius: 30px;
@@ -184,7 +275,13 @@
   align-items: center;
   justify-content: center;
 }
-
+.onSchool-Teachers .Top-Section {
+  margin-bottom: 100px;
+}
+.onSchool-Teachers .Top-Section .Teachers-Top-Content .heading {
+  height: 100px;
+  padding: 25px;
+}
 .onSchool-Teachers .img-hack {
   border-radius: 50%;
   left: 50%;
@@ -197,7 +294,6 @@
 .onSchool-Teachers .card-padding {
   padding-top: 80px;
 }
-
 .onSchool-Teachers .Teachers-bg-img {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url('./assets/hero-1.jpg');
@@ -212,7 +308,6 @@
   max-width: 50%;
   margin: 0 auto;
 }
-
 .onSchool-Message {
   background-color: #f8f9fa;
 }
@@ -236,7 +331,7 @@
   border-style: none;
   border-radius: 25px;
   height: 50px;
-  width: 250px;
+  width: 50%;
 }
 .onSchool-Message .Message-Form .btn:hover {
   background-color: white;
@@ -244,55 +339,49 @@
   color: #7672e6;
 }
 .onSchool-WhyUs {
-  overflow-x: hidden;
-  height: 100vh;
+  overflow: hidden;
 }
-.onSchool-WhyUs.why-padding {
-  padding-top: 50px;
-  padding-bottom: 50px;
+.onSchool-WhyUs .Top-Section .heading {
+  height: 200px;
+  padding: 75px;
 }
-.onSchool-WhyUs .Middle-Section {
-  margin-bottom: 20px;
+.onSchool-WhyUs .Middle-Section .Card {
+  border-style: none;
+  width: 50%;
+  left: 60%;
+  transform: translateX(-40%);
 }
 .onSchool-WhyUs .alignment {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.onSchool-WhyUs .benjamin-side-img {
-  position: absolute;
-  bottom: 0;
-  right: 300px;
-  width: 700px;
+.onSchool-WhyUs .text-align {
+  text-align: start;
 }
 .onSchool-WhyUs .blog1-side-img {
   position: absolute;
-  top: 0;
-  right: -130px;
+  top: -40px;
+  right: -100px;
   z-index: -1;
 }
 .onSchool-WhyUs .blog2-side-img {
   position: absolute;
-  bottom: 0;
+  bottom: -45px;
   left: -150px;
   z-index: -1;
 }
-
 .onSchool-WhyUs .icon-roundend {
   border: none;
   border-radius: 30px;
   display: flex;
-  height: 50px;
-  min-width: 50px;
+  height: 40px;
+  width: 40px;
   align-items: center;
   justify-content: center;
 }
 .onSchool-WhyUs .mw-40 {
-  max-width: 40%;
-}
-
-.onSchool-WhyUs .text-center {
-  text-align: start;
+  max-width: 35%;
 }
 .onSchool-Footer .color-BgPurple {
   background-color: #7672e6;
@@ -301,12 +390,28 @@
   max-width: 50%;
   margin: 0 auto;
 }
+.Footer-Center-Content .Footer-list {
+  cursor: pointer;
+}
 .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input {
   display: flex;
 }
 .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input > input {
   border: 1px solid lightgray;
+  height: 50px;
+  border-radius: 25px 0px 0px 25px;
+  padding: 25px;
 }
+.onSchool-Footer
+  .Footer-Rigt-Content
+  .Footer-Subscribe-Input
+  .subscribe-button {
+  width: 40%;
+  border-radius: 0px 25px 25px 0px;
+  color: white;
+  border: 1px solid #7672e6;
+}
+
 .onSchool-Footer
   .Footer-Rigt-Content
   .Footer-Subscribe-Input
@@ -315,42 +420,52 @@
   border: 5px solid #7672e6;
   box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
 }
-
 .onSchool-Footer .Footer-Bottom .cr-border {
   border-top: 1px solid rgb(235, 230, 230);
 }
+
 @media screen and (max-width: 1440px) {
   .onSchool-WhyUs .benjamin-side-img {
     right: 5%;
   }
-}
-@media screen and (max-width: 1330px) {
-  .onSchool-WhyUs .benjamin-side-img {
-    right: 0;
+  .onSchool-Courses {
+    height: 100vh;
+    min-height: 850px;
+  }
+  .onSchool-Courses .Courses-slider .swiper {
+    height: 625px;
   }
 }
-@media screen and (max-width: 1210px) {
-  .onSchool-WhyUs .benjamin-side-img {
+@media screen and (max-width: 1200px) {
+  .onSchool-Header .Nav-toggle-hidden {
     display: none;
   }
-  .onSchool-WhyUs .mw-40 {
-    margin: auto;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .onSchool-Header .Nav-toggle-hidden {
+  .onSchool-Header .Contact-btn {
     display: none;
   }
   .onSchool-Header .Navbar-offCanvas-btn {
     display: grid;
   }
-  .Cards-Carousel .card {
-    width: 380px;
+  .onSchool-Courses {
+    min-height: 884px;
   }
-  .Cards-Carousel .carousel-control-prev,
-  .Cards-Carousel .carousel-control-next {
-    width: 20%;
+
+  .onSchool-Courses .Courses-slider .swiper {
+    width: 65%;
+    height: 690px;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-prev {
+    left: 25%;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
+    right: 25%;
+  }
+  .onSchool-WhyUs .Middle-Section .Card {
+    border-style: none;
+    width: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 80px;
   }
   .onSchool-Programs .max-width {
     max-width: 75%;
@@ -358,35 +473,59 @@
   .onSchool-WhyUs .mw-40 {
     max-width: 50%;
   }
-  .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input {
-    display: grid;
+  .onSchool-Message .max-width {
+    width: 60%;
   }
   .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input > input {
     width: 85%;
   }
-  .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input > button {
-    width: 65%;
+}
+
+@media screen and (max-width: 991px) {
+  .onSchool-Courses .Courses-slider .swiper {
+    width: 50%;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-prev {
+    left: 20%;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
+    right: 20%;
   }
 }
 @media screen and (max-width: 767px) {
-  .onSchool-Header .Contact-btn {
-    display: none;
-  }
   .OnSchool-Home.Home-bg .Home-Content {
     display: block;
+    text-align: center;
+    width: 75%;
+    margin: auto;
     margin-bottom: 50px;
   }
   .OnSchool-Home .Home-SignUp-Form form {
     width: 100%;
+    text-align: center;
   }
-  .Cards-Carousel .card {
-    width: 100%;
+  .OnSchool-Home .Home-SignUp-Form .input-Focus {
+    text-align: center;
   }
-  .Cards-Carousel .carousel-control-prev,
-  .Cards-Carousel .carousel-control-next {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+  .onSchool-Courses .Courses-slider .swiper {
+    width: 70%;
+  }
+  .onSchool-Courses .Courses-slider .swiper .image-size {
+    height: 250px;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-prev {
+    left: 20%;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
+    right: 20%;
+  }
+  .onSchool-Programs .Middle-Section .Programs-CardContent-Top-alignment {
+    text-align: center;
+  }
+  .onSchool-Programs
+    .Programs-CardContent-Bottom-Section
+    .Programs-CardContent-Bottom {
+    flex-direction: column;
   }
   .onSchool-Teachers .max-width {
     max-width: 100%;
@@ -397,107 +536,167 @@
   .onSchool-Message .first-Name {
     margin-bottom: 25px;
   }
+  .onSchool-Message .Message-Content {
+    text-align: center;
+  }
+  .onSchool-Message .Message-Form .input-Focus {
+    text-align: center;
+  }
+  .onSchool-Message .max-width {
+    width: 100%;
+  }
+  .onSchool-Message .Message-Form .btn {
+    width: 200px;
+  }
+  .onSchool-WhyUs .Middle-Section .Card {
+    width: 60%;
+  }
+
+  .onSchool-Footer .max-width {
+    max-width: 100%;
+  }
   .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input > input {
     width: 85%;
   }
-  .onSchool-Footer .Footer-Rigt-Content .Footer-Subscribe-Input > button {
-    width: 50%;
+  .onSchool-Footer
+    .Footer-Rigt-Content
+    .Footer-Subscribe-Input
+    .subscribe-button {
+    width: 20%;
+  }
+  .onSchool-Footer
+    .Footer-Rigt-Content
+    .Footer-Subscribe-Input
+    .subscribe-button {
+    width: 70%;
   }
 }
 @media screen and (max-width: 575px) {
   .OnSchool-Home.Home-bg .Home-Content {
-    width: 50%;
+    width: 90%;
     margin: auto;
     margin-bottom: 50px;
   }
   .OnSchool-Home .Home-SignUp-Form form {
-    width: 50%;
+    width: 90%;
     margin: auto;
   }
   .OnSchool-Home .Home-admission {
-    width: 100%;
+    width: 40%;
+  }
+  .onSchool-Courses {
+    min-height: 750px;
   }
   .Card-Footer {
     display: grid;
   }
   .onSchool-WhyUs .alignment {
-    flex-direction: column;
+    flex-direction: initial;
   }
-  .onSchool-WhyUs .text-center {
-    text-align: justify;
-  }
+
   .onSchool-Message .text-center {
     text-align: justify;
+  }
+  .onSchool-Courses {
+    height: 100%;
+    min-height: 750px;
+  }
+  .onSchool-Courses .Heading {
+    height: 130px;
+  }
+
+  .onSchool-Courses .Courses-slider {
+    position: relative;
+    top: 0;
+  }
+  .onSchool-Courses .Courses-slider .swiper {
+    width: 80%;
   }
   .Footer-Center-Content.max-width {
     max-width: 0;
     margin: 0;
   }
-  .onSchool-Courses .Cards-Carousel {
-    width: 80%;
-  }
+
   .onSchool-WhyUs .Middle-Section .Card {
-    max-height: 600px;
-    overflow-y: auto;
+    height: auto;
+  }
+  .onSchool-WhyUs .text-align {
+    text-align: center;
   }
   .onSchool-Message .Message-Content {
     text-align: center;
-    max-width: 50%;
+    max-width: 100%;
     margin: auto;
   }
-  .onSchool-Message .Message-Content .Message-para {
-    display: none;
-  }
+
   .onSchool-Message .max-width {
     width: 80%;
   }
   .onSchool-WhyUs {
     height: 100%;
   }
+  .onSchool-WhyUs .Middle-Section .Card {
+    width: 70%;
+  }
+  .onSchool-Footer
+    .Footer-Rigt-Content
+    .Footer-Subscribe-Input
+    .subscribe-button {
+    width: 45%;
+  }
 }
 @media screen and (max-width: 375px) {
-  .OnSchool-Home.Home-bg .Home-Content {
-    display: none;
+  .OnSchool-Home .Home-admission {
+    width: 100px;
   }
-  .onSchool-Courses .Heading {
-    height: 50px;
-    padding: 10px;
-  }
-  .onSchool-Courses .Cards-Carousel {
-    top: 10%;
-    width: 90%;
-  }
-  .Card-Footer {
-    display: none;
-  }
-
-  .Cards-Carousel .carousel-control-next,
-  .Cards-Carousel .carousel-control-prev {
-    display: none;
+  .onSchool-Courses {
+    min-height: 800px;
   }
   .onSchool-Message .Message-Form .btn {
     width: auto;
   }
-  .onSchool-WhyUs {
-    min-height: 500px;
-  }
 }
-
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 424px) and (min-width: 320px) {
   .OnSchool-Home {
+    height: 100vh;
+    min-height: 800px;
+  }
+  .onSchool-Courses {
+    min-height: 700px;
+  }
+  .onSchool-Courses .Heading {
+    height: 100px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .onSchool-Courses .Courses-slider .swiper {
+    width: 85%;
+    height: 650px;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-prev {
+    left: 15%;
+  }
+  .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
+    right: 15%;
+  }
+  .onSchool-WhyUs {
     min-height: 1000px;
   }
-  .onSchool-WhyUs .benjamin-side-img {
-    right: 10%;
+  .onSchool-WhyUs .alignment {
+    flex-direction: column;
   }
-  .onSchool-Courses .Cards-Carousel {
+
+  .onSchool-WhyUs .Middle-Section .Card {
     width: 80%;
   }
-  .Cards-Carousel .card {
-    width: 50%;
-  }
-  .onSchool-Courses .image-size {
-    height: 350px;
+  .onSchool-Footer
+    .Footer-Rigt-Content
+    .Footer-Subscribe-Input
+    .subscribe-button {
+    width: 40%;
   }
 }
 @media screen and (min-width: 1024px) {
@@ -508,33 +707,11 @@
     width: 85%;
   }
 }
-@media screen and (min-width: 991px) {
-  .onSchool-Header .Navbar-offCanvas-btn {
-    display: none;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .OnSchool-Home {
     min-height: 900px;
   }
   .onSchool-Message .Message-Form .btn {
     display: block;
-  }
-}
-@media screen and (min-width: 425px) {
-  .OnSchool-Home {
-    min-height: 850px;
-  }
-}
-@media screen and (min-width: 325px) {
-  .OnSchool-Home {
-    min-height: 800px;
-  }
-  .onSchool-Courses {
-    min-height: 1000px;
-  }
-  .onSchool-WhyUs {
-    min-height: 1000px;
   }
 }

@@ -7,10 +7,10 @@ import Img4 from '../assets/xperson_4.jpg.pagespeed.ic.khM9f77Fmk.jpeg';
 const Teachers = () => {
   return (
     <section className='onSchool-Teachers'>
-      <div classNam='Top-Section my-5'>
+      <div className='Top-Section'>
         <Container>
-          <div className='Teachers-Top-Content py-5'>
-            <h1 className='py-5'>
+          <div className='Teachers-Top-Content'>
+            <h1 className='heading'>
               <b>Our Teachers</b>
             </h1>
             <p className='text-secondary max-width'>

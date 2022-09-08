@@ -2,6 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { Navbar, Nav, Container, Button, Offcanvas } from 'react-bootstrap';
 import { CgMenu } from 'react-icons/cg';
+import { FaTimes } from 'react-icons/fa';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -51,18 +52,23 @@ const Header = () => {
             <button onClick={handleShow} className='me-2 Navbar-offCanvas-btn '>
               <CgMenu size={25} />
             </button>
-            <Offcanvas show={show} onHide={handleClose} className='w-25'>
-              <Offcanvas.Header
-                closeButton
-                className='color-BgPurple'
-              ></Offcanvas.Header>
-              <Offcanvas.Body className='color-BgPurple '>
+            <Offcanvas
+              show={show}
+              onHide={handleClose}
+              className='Navbar-offCanvas '
+            >
+              <Offcanvas.Header>
+                {' '}
+                <FaTimes size={25} onClick={handleClose} />{' '}
+              </Offcanvas.Header>
+              <Offcanvas.Body>
                 <Nav className='justify-content-start flex-grow-1 pe-3'>
                   <Nav.Link href='#action1'>Home</Nav.Link>
                   <Nav.Link href='#action2'>Courses</Nav.Link>
                   <Nav.Link href='#action3'>Programs</Nav.Link>
                   <Nav.Link href='#action4'>Teachers</Nav.Link>
                 </Nav>
+                <button className='Contact-btn'>Contact Us</button>
               </Offcanvas.Body>
             </Offcanvas>
           </Container>

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='Footer-Top'>
         <Container className='my-0 py-0  my-md-5 py-md-5 text-start'>
           <Row>
-            <Col sm={4}>
+            <Col sm={12} md={6} lg={4}>
               <div className='Footer-Left-Content'>
                 <div className='Footer-Heading my-3'>
                   <h6>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={4}>
+            <Col sm={12} md={6} lg={4}>
               <div className='Footer-Center-Content  max-width'>
                 <div className='Footer-Heading my-3'>
                   <h6>
@@ -48,7 +48,7 @@ const Footer = () => {
                 </div>
               </div>
             </Col>
-            <Col sm={4}>
+            <Col sm={12} md={12} lg={4}>
               <div className='Footer-Rigt-Content'>
                 <div className='Footer-Heading my-3'>
                   <h6>
@@ -67,10 +67,12 @@ const Footer = () => {
                     name='email'
                     type='email'
                     placeholder='Email'
-                    className='p-2 input-Focus'
+                    className=' input-Focus'
                   ></input>
-                  <button className='text-white color-BgPurple p-1 border border-secondary w-75 w-md-25 h-100'>
-                    <b>Subscribe</b>
+                  <button className='subscribe-button color-BgPurple p-1 border border-secondary'>
+                    <span className='subscribe-button-text'>
+                      <b>Subscribe</b>
+                    </span>
                   </button>
                 </div>
               </div>

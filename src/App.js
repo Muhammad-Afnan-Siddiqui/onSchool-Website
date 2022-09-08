@@ -1,5 +1,5 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 import Header from './Header';
 import Home from './components/Home';
 import Courses from './components/Courses';
