@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col, Button, Form } from 'react-bootstrap';
 import { FaHeart } from 'react-icons/fa';
 const Footer = () => {
   return (
@@ -69,11 +69,15 @@ const Footer = () => {
                     placeholder='Email'
                     className=' input-Focus'
                   ></input>
-                  <button className='subscribe-button color-BgPurple p-1 border border-secondary'>
+                  <Button
+                    variant='default'
+                    type='submit'
+                    className='subscribe-button color-BgPurple p-1 '
+                  >
                     <span className='subscribe-button-text'>
                       <b>Subscribe</b>
                     </span>
-                  </button>
+                  </Button>
                 </div>
               </div>
             </Col>

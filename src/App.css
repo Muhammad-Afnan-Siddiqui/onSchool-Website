@@ -45,8 +45,8 @@
   color: white;
   background-color: white;
 }
-.Navbar-offCanvas .offcanvas-body {
-}
+/* .Navbar-offCanvas .offcanvas-body {
+} */
 .Navbar-offCanvas .offcanvas-body .Contact-btn {
   border-radius: 25px;
   background-color: #7672e6;
@@ -168,14 +168,47 @@
   width: 100%;
 }
 .onSchool-Courses .Courses-slider .swiper {
-  width: 60%;
+  width: 65%;
   height: 700px;
 }
 .onSchool-Courses .Courses-slider .swiper .swiper-slide .card {
   border: none;
 }
-.onSchool-Courses .Courses-slider .swiper .swiper-slide .card .Card-Footer {
-  border-bottom: 3px groove rgb(255 255 255 / 35%);
+.onSchool-Courses
+  .Courses-slider
+  .swiper
+  .swiper-slide
+  .card
+  .Card-Footer
+  .Card-Footer-content {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.onSchool-Courses
+  .Courses-slider
+  .swiper
+  .swiper-slide
+  .card
+  .Card-Footer
+  .Card-Footer-content.content-l {
+  justify-content: flex-start;
+  border-bottom: 2px groove lightgray;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+}
+.onSchool-Courses
+  .Courses-slider
+  .swiper
+  .swiper-slide
+  .card
+  .Card-Footer
+  .Card-Footer-content.content-r {
+  justify-content: center;
+  border-bottom: 2px groove lightgray;
+  border-left: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  border-right: 1px solid lightgray;
 }
 
 .onSchool-Courses .Courses-slider .swiper .swiper-button-prev {
@@ -199,7 +232,10 @@
   top: 90%;
 }
 .onSchool-Courses .Courses-slider .swiper .courses-card-body {
+  border-left: 1px solid lightgray;
+  border-right: 1px solid lightgray;
   text-align: start;
+  position: relative;
 }
 .onSchool-Courses .Courses-slider .swiper .image-size {
   object-fit: cover;
@@ -217,22 +253,22 @@
   width: fit-content;
   right: 0;
   position: absolute;
-  top: -20%;
+  top: -25px;
   font-size: large;
 }
-.onSchool-Courses .Courses-slider .swiper .swiper-button-next:after {
-  /* font-family: ;
-  font-size: xx-large; */
+/* .onSchool-Courses .Courses-slider .swiper .swiper-button-next:after {
+  font-family: ;
+  font-size: xx-large;
 }
 .onSchool-Courses .Courses-slider .swiper .swiper-button-prev:after {
-  /* font-family: initial;
-  font-size: xx-large; */
-}
-.Card-Footer {
+  font-family: initial;
+  font-size: xx-large;
+} */
+/* .Card-Footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 .onSchool-Programs .max-width {
   max-width: 50%;
   margin: 0 auto;
@@ -411,13 +447,18 @@
   color: white;
   border: 1px solid #7672e6;
 }
-
+.onSchool-Footer
+  .Footer-Rigt-Content
+  .Footer-Subscribe-Input
+  .input-Focus:hover {
+  border: 2px solid #7672e6;
+}
 .onSchool-Footer
   .Footer-Rigt-Content
   .Footer-Subscribe-Input
   .input-Focus:focus-visible {
   outline: none;
-  border: 5px solid #7672e6;
+  border: 2px solid #7672e6;
   box-shadow: 0 0 0 0.25rem rgb(118 114 230/ 25%);
 }
 .onSchool-Footer .Footer-Bottom .cr-border {
@@ -519,6 +560,13 @@
   .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
     right: 20%;
   }
+  /* .onSchool-Courses
+    .Courses-slider
+    .swiper
+    .courses-card-body
+    .cousrses-card-discount {
+    top: 47%;
+  } */
   .onSchool-Programs .Middle-Section .Programs-CardContent-Top-alignment {
     text-align: center;
   }
@@ -539,7 +587,20 @@
   .onSchool-Message .Message-Content {
     text-align: center;
   }
-  .onSchool-Message .Message-Form .input-Focus {
+
+  .onSchool-Message .Message-Form::-webkit-input-placeholder {
+    /* Edge */
+
+    text-align: center;
+  }
+
+  .onSchool-Message .Message-Form:-ms-input-placeholder {
+    /* Internet Explorer */
+
+    text-align: center;
+  }
+
+  .onSchool-Message .Message-Form::placeholder {
     text-align: center;
   }
   .onSchool-Message .max-width {
@@ -587,9 +648,9 @@
   .onSchool-Courses {
     min-height: 750px;
   }
-  .Card-Footer {
-    display: grid;
-  }
+  /* .onSchool-Courses .Courses-slider .swiper .swiper-slide .card .Card-Footer{
+
+  } */
   .onSchool-WhyUs .alignment {
     flex-direction: initial;
   }
@@ -620,6 +681,13 @@
   .onSchool-WhyUs .Middle-Section .Card {
     height: auto;
   }
+  /* .onSchool-Courses
+    .Courses-slider
+    .swiper
+    .courses-card-body
+    .cousrses-card-discount {
+    top: 46%;
+  } */
   .onSchool-WhyUs .text-align {
     text-align: center;
   }
@@ -682,6 +750,13 @@
   .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
     right: 15%;
   }
+  /* .onSchool-Courses
+    .Courses-slider
+    .swiper
+    .courses-card-body
+    .cousrses-card-discount {
+    top: 44%;
+  } */
   .onSchool-WhyUs {
     min-height: 1000px;
   }

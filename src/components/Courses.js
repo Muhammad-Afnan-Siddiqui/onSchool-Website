@@ -53,7 +53,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body'>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -66,14 +66,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class=' Card-Footer text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -89,7 +95,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body '>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -102,14 +108,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class='Card-Footer text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -124,7 +136,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body'>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -137,14 +149,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class='Card-Footer text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -158,7 +176,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body'>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -171,14 +189,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class=' Card-Footer  text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -194,7 +218,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body '>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -207,14 +231,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class='Card-Footer text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -229,7 +259,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body'>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -242,14 +272,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class='Card-Footer text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -263,7 +299,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body'>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -276,14 +312,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class=' Card-Footer text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -299,7 +341,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body '>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -312,14 +354,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class='Card-Footer    text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
@@ -334,7 +382,7 @@ const Courses = () => {
 
               <Card.Body className='courses-card-body'>
                 <Card.Subtitle className='cousrses-card-discount'>
-                  $30
+                  $99
                 </Card.Subtitle>
                 <Card.Subtitle className='my-3 text-muted d-flex align-items-center '>
                   <FaRegClock className='mx-1' /> 4 Lesson/ 2 Weeks
@@ -347,14 +395,20 @@ const Courses = () => {
                   the bulk of the card's content.
                 </Card.Text>
               </Card.Body>
-              <Card.Footer class='Card-Footer   text-secondary p-3'>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaUsers size={20} className='mx-1' />
-                  2,193 Students
-                </Card.Text>
-                <Card.Text className='mb-0 d-flex align-items-center'>
-                  <FaRegCommentDots size={20} className='mx-1' /> 2
-                </Card.Text>
+              <Card.Footer class=' Card-Footer text-secondary '>
+                <Row className='gx-0'>
+                  <Col xs={9}>
+                    <p className='Card-Footer-content content-l'>
+                      <FaUsers size={20} className='mx-3' />
+                      2,193 Students
+                    </p>
+                  </Col>
+                  <Col xs={3}>
+                    <p className='Card-Footer-content content-r'>
+                      <FaRegCommentDots size={20} className='mx-2' /> 2
+                    </p>
+                  </Col>
+                </Row>
               </Card.Footer>
             </Card>
           </SwiperSlide>
