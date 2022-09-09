@@ -45,8 +45,6 @@
   color: white;
   background-color: white;
 }
-/* .Navbar-offCanvas .offcanvas-body {
-} */
 .Navbar-offCanvas .offcanvas-body .Contact-btn {
   border-radius: 25px;
   background-color: #7672e6;
@@ -256,19 +254,6 @@
   top: -25px;
   font-size: large;
 }
-/* .onSchool-Courses .Courses-slider .swiper .swiper-button-next:after {
-  font-family: ;
-  font-size: xx-large;
-}
-.onSchool-Courses .Courses-slider .swiper .swiper-button-prev:after {
-  font-family: initial;
-  font-size: xx-large;
-} */
-/* .Card-Footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 .onSchool-Programs .max-width {
   max-width: 50%;
   margin: 0 auto;
@@ -560,13 +545,6 @@
   .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
     right: 20%;
   }
-  /* .onSchool-Courses
-    .Courses-slider
-    .swiper
-    .courses-card-body
-    .cousrses-card-discount {
-    top: 47%;
-  } */
   .onSchool-Programs .Middle-Section .Programs-CardContent-Top-alignment {
     text-align: center;
   }
@@ -576,7 +554,7 @@
     flex-direction: column;
   }
   .onSchool-Teachers .max-width {
-    max-width: 100%;
+    max-width: 75%;
   }
   .onSchool-WhyUs .mw-40 {
     max-width: 70%;
@@ -585,22 +563,6 @@
     margin-bottom: 25px;
   }
   .onSchool-Message .Message-Content {
-    text-align: center;
-  }
-
-  .onSchool-Message .Message-Form::-webkit-input-placeholder {
-    /* Edge */
-
-    text-align: center;
-  }
-
-  .onSchool-Message .Message-Form:-ms-input-placeholder {
-    /* Internet Explorer */
-
-    text-align: center;
-  }
-
-  .onSchool-Message .Message-Form::placeholder {
     text-align: center;
   }
   .onSchool-Message .max-width {
@@ -648,9 +610,6 @@
   .onSchool-Courses {
     min-height: 750px;
   }
-  /* .onSchool-Courses .Courses-slider .swiper .swiper-slide .card .Card-Footer{
-
-  } */
   .onSchool-WhyUs .alignment {
     flex-direction: initial;
   }
@@ -681,13 +640,6 @@
   .onSchool-WhyUs .Middle-Section .Card {
     height: auto;
   }
-  /* .onSchool-Courses
-    .Courses-slider
-    .swiper
-    .courses-card-body
-    .cousrses-card-discount {
-    top: 46%;
-  } */
   .onSchool-WhyUs .text-align {
     text-align: center;
   }
@@ -713,17 +665,7 @@
     width: 45%;
   }
 }
-@media screen and (max-width: 375px) {
-  .OnSchool-Home .Home-admission {
-    width: 100px;
-  }
-  .onSchool-Courses {
-    min-height: 800px;
-  }
-  .onSchool-Message .Message-Form .btn {
-    width: auto;
-  }
-}
+
 @media screen and (max-width: 424px) and (min-width: 320px) {
   .OnSchool-Home {
     height: 100vh;
@@ -750,13 +692,6 @@
   .onSchool-Courses .Courses-slider .swiper .swiper-button-next {
     right: 15%;
   }
-  /* .onSchool-Courses
-    .Courses-slider
-    .swiper
-    .courses-card-body
-    .cousrses-card-discount {
-    top: 44%;
-  } */
   .onSchool-WhyUs {
     min-height: 1000px;
   }
@@ -772,6 +707,20 @@
     .Footer-Subscribe-Input
     .subscribe-button {
     width: 40%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .OnSchool-Home .Home-admission {
+    width: 100px;
+  }
+  .onSchool-Courses {
+    min-height: 800px;
+  }
+  .onSchool-Message .Message-Form .btn {
+    width: auto;
+  }
+  .onSchool-Courses .Courses-slider .swiper {
+    width: 80%;
   }
 }
 @media screen and (min-width: 1024px) {

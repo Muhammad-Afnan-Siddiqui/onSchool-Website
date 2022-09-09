@@ -5,7 +5,7 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FaRegClock, FaUsers, FaRegCommentDots } from 'react-icons/fa';
-import { Container, Card, Row, Col, Button, Carousel } from 'react-bootstrap';
+import { Card, Row, Col } from 'react-bootstrap';
 import Card1 from '../assets/ezgif.com-gif-maker.jpg';
 import Card2 from '../assets/hero-1.jpg';
 import Card3 from '../assets/ximg_4.jpg.pagespeed.ic.MzhOoMOq8Q.jpeg';
