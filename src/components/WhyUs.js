@@ -77,7 +77,7 @@ const WhyUs = () => {
                     </span>
                   </Card.Text>
                   <Card.Text className='text-align'>
-                    Lorem Ipsum has been the industry'ss
+                    Lorem Ipsum has been the industry's
                   </Card.Text>
                 </Card.Body>
               </Card>

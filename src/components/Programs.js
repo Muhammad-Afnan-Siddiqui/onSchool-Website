@@ -6,10 +6,10 @@ import { FaUniversity, FaGraduationCap } from 'react-icons/fa';
 
 const Programs = () => {
   return (
-    <section className='onSchool-Programs '>
+    <section className='onSchool-Programs'>
       <div className='Top-Section'>
         <Container>
-          <div className='max-width '>
+          <div className='max-width'>
             <h1 className='Heading'>
               <b>Our Programs</b>
             </h1>
@@ -27,7 +27,7 @@ const Programs = () => {
           <Row>
             <Col sm={12} md={6} lg={6}>
               <div className='Programs-Card-Img'>
-                <img src={Img1} alt='' className='w-100 ' />
+                <img src={Img1} alt='img1' className='w-100 ' />
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
@@ -83,7 +83,7 @@ const Programs = () => {
               lg={{ span: 6, order: 2 }}
             >
               <div className='Programs-Card-Img '>
-                <img src={Img2} alt='' className='img-fluid ' />
+                <img src={Img2} alt='img2' className='img-fluid ' />
               </div>
             </Col>
             <Col
@@ -139,7 +139,7 @@ const Programs = () => {
           <Row>
             <Col sm={12} md={6} lg={6}>
               <div className='Programs-Card-Img '>
-                <img src={Img2} alt='' className='w-100 ' />
+                <img src={Img2} alt='img3' className='w-100' />
               </div>
             </Col>
             <Col sm={12} md={6} lg={6}>
